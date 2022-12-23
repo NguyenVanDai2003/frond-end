@@ -26,17 +26,21 @@ class Buyticket extends React.Component {
                     <div className="buytk0 py-5">
                         <div className=" buytk1">
                             <h5>Buy Tickets</h5>
-                            <div className="row">
+                            <div className="container">
+                                <div className="row">
+                                    <div class="form-group formb">
+                                        <label for="">Buy ticket (quantity):</label>
+                                        <input type="text"
+                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="Input your quantity..." />
 
-                                <div className="col-md-6 c-left">
-                                    <p>Buy: </p>
-                                    <p>Number: </p>
-                                    <p>Total Price:</p>
-                                </div>
-                                <div className="col-md-6 c-right">
-                                    <p>... Tickets</p>
-                                    <p>...số..</p>
-                                    <p>~..tiền.</p>
+                                        <label for="">Price:</label>
+                                        <input type="text"
+                                            class="form-control" name="" id="" aria-describedby="helpId" Value="1.25" />
+
+                                        <label for="">Total price:</label>
+                                        <input type="text"
+                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+                                    </div>
                                 </div>
                             </div>
 

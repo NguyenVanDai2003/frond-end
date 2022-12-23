@@ -961,7 +961,6 @@ span.t9 {
 }
 
 .buytk0 {
-    height: 550px;
     background-color: rgb(225, 250, 155);
     box-shadow: 200px 200px 300px rgb(248, 154, 228) inset;
     font-family: Arial, Helvetica, sans-serif;
@@ -971,7 +970,6 @@ span.t9 {
 .buytk1 {
     border: 1px solid lightgray;
     border-radius: 35px;
-    height: 500px;
     width: 25%;
     padding-top: 20px;
     margin: auto;
@@ -987,11 +985,15 @@ span.t9 {
     color: rgb(86, 22, 129);
 }
 
-.c-left p,
-.c-right p {
-    margin-top: 30px;
+.formb{
+    width: 25%; 
+    margin-left: 20px;
+}
+
+.formb input, .formb label {
+    margin-top: 5px;
     font-size: 16px;
-    color: rgb(164, 143, 236);
+    color: rgb(137, 115, 211);
 }
 
 .buytk2 {
