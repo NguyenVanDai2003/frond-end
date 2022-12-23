@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// desktop
+// @media only screen and ( max-width: 1320px) {
+//   .respon{
+//     width: 100%;
+//   }
+  
+// }
+
+// @media only screen and ( max-width: 900px) {
+//   .respon{
+//     width: 75%;
+//   }
+  
+// }
+
+// @media only screen and ( max-width: 600px) {
+//   .respon{
+//     width: 50%;
+//   }
+  
+// }
+
+// @media only screen and ( max-width: 300px) {
+//   .respon{
+//     width: 25%;
+//   }
+  
+// }
+
+
+// mobile
+
+@media only screen and ( min-width: 1350px) {
+  .respon{
+    width: 25%;
+  }
+  
+}
+
+@media only screen and ( min-width: 900px) {
+  .respon{
+    width: 50%;
+  }
+  
+}
+
+@media only screen and ( min-width: 600px) {
+  .respon{
+    width: 75%;
+  }
+  
+}
+
+@media only screen and ( min-width: 300px) {
+  .respon{
+    width: 100%;
+  }
+  
+}
